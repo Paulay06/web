@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Virtual Assistant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      border-radius: 50%;
+    }
+    section {
+      padding: 40px;
+    }
+    h2 {
+      color: #333;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: white;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: black;
+      color: white;
+      text-decoration: none;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- LANDING PAGE -->
+<header>
+  <img src="your-photo.jpg" alt="Profile Photo">
+  <h1>Your Name</h1>
+  <p>Executive Virtual Assistant</p>
+</header>
+
+<!-- ABOUT ME -->
+<section>
+  <h2>About Me</h2>
+
+  <p><strong>Background:</strong> I am a dedicated and detail-oriented professional with a passion for helping businesses stay organized and efficient.</p>
+
+  <p><strong>Educational Background:</strong> I completed my studies in [Your Course/Program] and have taken relevant training in administrative support and digital tools.</p>
+
+  <p><strong>Mission & Vision:</strong> My mission is to provide reliable and high-quality support to clients, helping them focus on growing their business. I aim to become a trusted long-term partner.</p>
+
+  <p><strong>Goals & Motivation:</strong> I am driven by growth, learning new skills, and delivering excellent results. My goal is to continuously improve and expand my expertise.</p>
+
+  <p><strong>Key Achievements:</strong> Completed multiple academic projects, consistently met deadlines, and recognized for strong organization and communication skills.</p>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>Core Skills & Services</h2>
+  <div class="skills">
+    <div class="card">
+      <h3>Technical Skills</h3>
+      <p>Data Entry, Research, Email Management, Calendar Management</p>
+    </div>
+    <div class="card">
+      <h3>Software Proficiency</h3>
+      <p>Google Workspace, Microsoft Office, Canva, Trello</p>
+    </div>
+    <div class="card">
+      <h3>Soft Skills</h3>
+      <p>Communication, Time Management, Attention to Detail</p>
+    </div>
+    <div class="card">
+      <h3>Services</h3>
+      <p>Social Media Management, Project Coordination, Admin Support</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+  <h2>Experience & Projects</h2>
+
+  <h3>Work Experience</h3>
+  <p>Student Assistant / Freelance Work – Assisted in organizing documents, scheduling tasks, and supporting team coordination.</p>
+
+  <h3>Projects</h3>
+  <div class="projects">
+    <div class="card">
+      <h4>Travel Itinerary</h4>
+      <p>Created a detailed 5-day travel plan with budget and schedule.</p>
+    </div>
+    <div class="card">
+      <h4>Social Media Calendar</h4>
+      <p>Designed a 30-day content plan for a mock business.</p>
+    </div>
+    <div class="card">
+      <h4>Data Entry Sheet</h4>
+      <p>Organized and formatted data using Excel.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact Me</h2>
+  <p>Email: your@email.com</p>
+  <p>LinkedIn: linkedin.com/in/yourname</p>
+
+  <a href="resume.pdf" class="button" download>Download Resume</a>
+</section>
+
+<footer>
+  <p>© 2026 Your Name</p>
+</footer>
+
+</body>
+</html>
